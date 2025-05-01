@@ -66,6 +66,14 @@ foreach ($signos->signo as $signo) {
 
 // Formato de data para exibição
 $data_formatada = date('d/m/Y', $timestamp);
+
+// Mapear elementos para classes CSS
+$elemento_classes = [
+    'Fogo' => 'elemento-fogo',
+    'Terra' => 'elemento-terra',
+    'Ar' => 'elemento-ar',
+    'Água' => 'elemento-agua'
+];
 ?>
 
 <div class="container mt-5">
@@ -80,10 +88,32 @@ $data_formatada = date('d/m/Y', $timestamp);
                     
                     <?php if ($signo_encontrado): ?>
                         <div class="text-center mb-4">
-                            <h2 class="display-4"><?= $signo_encontrado->signoNome; ?></h2>
+                            <?php if(isset($signo_encontrado->imagemURL) && !empty($signo_encontrado->imagemURL)): ?>
+                                <img src="<?= $signo_encontrado->imagemURL; ?>" alt="Símbolo de <?= $signo_encontrado->signoNome; ?>" class="signo-image mb-3">
+                            <?php endif; ?>
+                            
+                            <h2 class="display-4">
+                                <?php if(isset($signo_encontrado->simbolo) && !empty($signo_encontrado->simbolo)): ?>
+                                    <span class="signo-simbolo"><?= $signo_encontrado->simbolo; ?></span>
+                                <?php endif; ?>
+                                <?= $signo_encontrado->signoNome; ?>
+                                
+                                <?php if(isset($signo_encontrado->elemento) && !empty($signo_encontrado->elemento)): ?>
+                                    <span class="signo-elemento <?= $elemento_classes[(string)$signo_encontrado->elemento] ?? ''; ?>">
+                                        <?= $signo_encontrado->elemento; ?>
+                                    </span>
+                                <?php endif; ?>
+                            </h2>
+                            
                             <p class="text-muted">
                                 <?= $signo_encontrado->dataInicio; ?> a <?= $signo_encontrado->dataFim; ?>
                             </p>
+                            
+                            <?php if(isset($signo_encontrado->planeta) && !empty($signo_encontrado->planeta)): ?>
+                                <p class="mb-3">
+                                    <strong>Regente:</strong> <?= $signo_encontrado->planeta; ?>
+                                </p>
+                            <?php endif; ?>
                         </div>
                         
                         <div class="alert alert-info">

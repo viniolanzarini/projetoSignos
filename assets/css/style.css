@@ -65,3 +65,73 @@ header {
         margin: 0 10px;
     }
 }
+.signo-image {
+    max-width: 150px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.signo-card {
+    transition: all 0.3s ease;
+}
+
+.signo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.signo-simbolo {
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.signo-elemento {
+    font-size: 0.9rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 8px;
+}
+
+.elemento-fogo {
+    background-color: #ffeded;
+    color: #FF5733;
+}
+
+.elemento-terra {
+    background-color: #f0f5e9;
+    color: #6B8E23;
+}
+
+.elemento-ar {
+    background-color: #f0f8ff;
+    color: #1E90FF;
+}
+
+.elemento-agua {
+    background-color: #e6f7f7;
+    color: #20B2AA;
+}@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.signo-image:hover {
+    animation: pulse 1.5s infinite;
+}
+
+/* Estilos para os modais */
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+/* Melhorias para lista de signos */
+.badge {
+    margin: 0 3px;
+    padding: 6px 10px;
+    font-weight: normal;
+}

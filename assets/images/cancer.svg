@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <style>
+    .symbol { fill: #87CEEB; stroke: #333; stroke-width: 2; }
+    .circle { fill: none; stroke: #87CEEB; stroke-width: 3; }
+  </style>
+  <circle class="circle" cx="100" cy="100" r="90" />
+  <path class="symbol" d="M50,80 C65,80 75,95 75,110 C75,125 65,140 50,140 M150,80 C135,80 125,95 125,110 C125,125 135,140 150,140 M75,110 L125,110" />
+</svg>

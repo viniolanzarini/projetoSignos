@@ -4,72 +4,120 @@
         <dataInicio>21/03</dataInicio>
         <dataFim>20/04</dataFim>
         <signoNome>Áries</signoNome>
-        <descricao>Áries é um signo de fogo, conhecido por sua coragem e determinação.</descricao>
+        <descricao>Áries é o primeiro signo do zodíaco, regido por Marte e representado pelo carneiro. É um signo de fogo, conhecido por sua coragem, determinação e energia vibrante. Os arianos são líderes naturais, pioneiros e adoram iniciar novos projetos. Possuem personalidade forte, são competitivos e diretos em suas abordagens. Costumam ser impulsivos e podem se impacientar facilmente, mas sua honestidade e entusiasmo contagiam a todos ao seu redor. Enfrentam desafios de cabeça erguida e raramente desistem de seus objetivos.</descricao>
+        <elemento>Fogo</elemento>
+        <planeta>Marte</planeta>
+        <simbolo>♈</simbolo>
+        <imagemURL>assets/images/aries.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>21/04</dataInicio>
         <dataFim>20/05</dataFim>
         <signoNome>Touro</signoNome>
-        <descricao>Touro é um signo de terra, associado à praticidade e estabilidade.</descricao>
+        <descricao>Touro é o segundo signo do zodíaco, regido por Vênus e simbolizado pelo touro. Como signo de terra, é sinônimo de estabilidade, praticidade e determinação. Os taurinos são conhecidos por sua paciência, lealdade e apreciação pelos prazeres sensoriais da vida. Amantes do conforto e da beleza, valorizam a segurança material e emocional. São trabalhadores persistentes que constroem bases sólidas para o futuro. Embora possam ser teimosos quando contrariados, sua natureza confiável e afetuosa os torna amigos e parceiros de grande valor.</descricao>
+        <elemento>Terra</elemento>
+        <planeta>Vênus</planeta>
+        <simbolo>♉</simbolo>
+        <imagemURL>assets/images/taurus.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>21/05</dataInicio>
         <dataFim>20/06</dataFim>
         <signoNome>Gêmeos</signoNome>
-        <descricao>Gêmeos é um signo de ar, conhecido por sua versatilidade e curiosidade.</descricao>
+        <descricao>Gêmeos é o terceiro signo do zodíaco, regido por Mercúrio e representado pelos gêmeos. Como signo de ar, é caracterizado por sua versatilidade intelectual e curiosidade insaciável. Os geminianos são comunicativos, adaptáveis e possuem uma mente ágil que absorve informações rapidamente. São sociais por natureza e adoram trocar ideias, debater e aprender coisas novas. Sua dualidade lhes permite ver diferentes perspectivas, tornando-os excelentes mediadores. Embora possam parecer inconstantes às vezes, sua criatividade e capacidade de renovação são qualidades admiráveis.</descricao>
+        <elemento>Ar</elemento>
+        <planeta>Mercúrio</planeta>
+        <simbolo>♊</simbolo>
+        <imagemURL>assets/images/gemini.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>21/06</dataInicio>
         <dataFim>22/07</dataFim>
         <signoNome>Câncer</signoNome>
-        <descricao>Câncer é um signo de água, caracterizado pela sensibilidade e proteção.</descricao>
+        <descricao>Câncer é o quarto signo do zodíaco, regido pela Lua e simbolizado pelo caranguejo. Como signo de água, é profundamente emotivo, intuitivo e protetor. Os cancerianos são conhecidos por sua sensibilidade, empatia e forte conexão com a família. Possuem memória excepcional, especialmente para experiências emocionais. São cuidadores natos que nutrem relacionamentos com dedicação. Sua natureza reservada esconde um mundo interior rico em sentimentos e sonhos. Embora possam ser defensivos quando se sentem vulneráveis, sua lealdade e capacidade de acolhimento fazem deles amigos e familiares insubstituíveis.</descricao>
+        <elemento>Água</elemento>
+        <planeta>Lua</planeta>
+        <simbolo>♋</simbolo>
+        <imagemURL>assets/images/cancer.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>23/07</dataInicio>
         <dataFim>22/08</dataFim>
         <signoNome>Leão</signoNome>
-        <descricao>Leão é um signo de fogo, conhecido por sua liderança e generosidade.</descricao>
+        <descricao>Leão é o quinto signo do zodíaco, regido pelo Sol e representado pelo leão. Como signo de fogo, irradia calor, criatividade e liderança natural. Os leoninos são carismáticos, generosos e possuem uma presença marcante. Amam ser o centro das atenções e expressam-se com dramaticidade e paixão. São leais aos amigos e familiares, protegendo-os com fervor. Possuem grande orgulho e dignidade, valorizando o reconhecimento por seus esforços. Apesar de poderem ser um pouco vaidosos, sua capacidade de inspirar e motivar os outros, junto com seu coração nobre, faz deles líderes respeitados e admirados.</descricao>
+        <elemento>Fogo</elemento>
+        <planeta>Sol</planeta>
+        <simbolo>♌</simbolo>
+        <imagemURL>assets/images/leo.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>23/08</dataInicio>
         <dataFim>22/09</dataFim>
         <signoNome>Virgem</signoNome>
-        <descricao>Virgem é um signo de terra, associado à organização e perfeccionismo.</descricao>
+        <descricao>Virgem é o sexto signo do zodíaco, regido por Mercúrio e simbolizado pela virgem. Como signo de terra, prima pela organização, análise e perfeccionismo. Os virginianos são detalhistas, metódicos e possuem uma mente prática voltada para a solução de problemas. São dedicados ao trabalho e ao serviço aos outros, sempre buscando maneiras de melhorar e aperfeiçoar o que os rodeia. Sua natureza observadora lhes permite ver detalhes que escapam à maioria. Embora possam ser críticos e preocupados, sua inteligência analítica e desejo sincero de ajudar fazem deles profissionais valiosos e amigos em quem se pode confiar para conselhos sensatos.</descricao>
+        <elemento>Terra</elemento>
+        <planeta>Mercúrio</planeta>
+        <simbolo>♍</simbolo>
+        <imagemURL>assets/images/virgo.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>23/09</dataInicio>
         <dataFim>22/10</dataFim>
         <signoNome>Libra</signoNome>
-        <descricao>Libra é um signo de ar, conhecido pelo equilíbrio e diplomacia.</descricao>
+        <descricao>Libra é o sétimo signo do zodíaco, regido por Vênus e representado pela balança. Como signo de ar, busca equilíbrio, harmonia e justiça em todas as áreas da vida. Os librianos são diplomáticos, sociáveis e possuem grande senso estético. Valorizam parcerias e relacionamentos, sentindo-se completos quando estão compartilhando experiências. Têm horror a conflitos e buscam sempre o meio-termo nas situações. Sua capacidade de ver diferentes lados de uma questão os torna excelentes mediadores. Embora possam ser indecisos às vezes, seu charme natural, gentileza e busca constante pela harmonia criam ambientes agradáveis onde quer que estejam.</descricao>
+        <elemento>Ar</elemento>
+        <planeta>Vênus</planeta>
+        <simbolo>♎</simbolo>
+        <imagemURL>assets/images/libra.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>23/10</dataInicio>
         <dataFim>21/11</dataFim>
         <signoNome>Escorpião</signoNome>
-        <descricao>Escorpião é um signo de água, marcado pela intensidade e paixão.</descricao>
+        <descricao>Escorpião é o oitavo signo do zodíaco, tradicionalmente regido por Plutão e Marte, simbolizado pelo escorpião. Como signo de água, é caracterizado por sua profundidade emocional, intensidade e poder de transformação. Os escorpianos são perceptivos, determinados e possuem uma forte intuição que beira o místico. São apaixonados em tudo o que fazem e valorizam a autenticidade nas relações. Sua natureza investigativa os leva a desvendar mistérios e a ir além das aparências. Embora possam ser reservados e até mesmo desconfiados inicialmente, sua lealdade é inabalável uma vez conquistada sua confiança. São mestres em renascer das cinzas, transformando experiências dolorosas em força e sabedoria.</descricao>
+        <elemento>Água</elemento>
+        <planeta>Plutão e Marte</planeta>
+        <simbolo>♏</simbolo>
+        <imagemURL>assets/images/scorpio.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>22/11</dataInicio>
         <dataFim>21/12</dataFim>
         <signoNome>Sagitário</signoNome>
-        <descricao>Sagitário é um signo de fogo, associado à aventura e otimismo.</descricao>
+        <descricao>Sagitário é o nono signo do zodíaco, regido por Júpiter e representado pelo arqueiro centauro. Como signo de fogo, é conhecido por seu espírito aventureiro, otimismo contagiante e busca pelo conhecimento. Os sagitarianos são viajantes físicos e mentais, sempre em busca de expandir seus horizontes e compreender o significado da vida. São francos ao expressar suas opiniões e valorizam profundamente a liberdade. Sua natureza filosófica os leva a questionar dogmas e a formar suas próprias crenças. Embora possam ser impacientes e às vezes excessivamente diretos, seu entusiasmo pela vida, generosidade e capacidade de enxergar possibilidades inspiram todos ao seu redor.</descricao>
+        <elemento>Fogo</elemento>
+        <planeta>Júpiter</planeta>
+        <simbolo>♐</simbolo>
+        <imagemURL>assets/images/sagittarius.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>22/12</dataInicio>
         <dataFim>20/01</dataFim>
         <signoNome>Capricórnio</signoNome>
-        <descricao>Capricórnio é um signo de terra, conhecido por sua ambição e disciplina.</descricao>
+        <descricao>Capricórnio é o décimo signo do zodíaco, regido por Saturno e simbolizado pela cabra marinha. Como signo de terra, é caracterizado por sua ambição, disciplina e senso de responsabilidade. Os capricornianos são trabalhadores persistentes que constroem seu sucesso tijolo por tijolo, com paciência e determinação. Valorizam a tradição, a hierarquia e possuem um forte senso de dever. São práticos e realistas em sua abordagem da vida, preferindo planos concretos a castelos no ar. Embora possam parecer sérios e reservados, têm um senso de humor sutil e uma lealdade inabalável. Com o tempo, aprendem a equilibrar trabalho e prazer, revelando uma surpreendente capacidade de aproveitar a vida após conquistarem seus objetivos.</descricao>
+        <elemento>Terra</elemento>
+        <planeta>Saturno</planeta>
+        <simbolo>♑</simbolo>
+        <imagemURL>assets/images/capricorn.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>21/01</dataInicio>
         <dataFim>19/02</dataFim>
         <signoNome>Aquário</signoNome>
-        <descricao>Aquário é um signo de ar, caracterizado pela originalidade e visão de futuro.</descricao>
+        <descricao>Aquário é o décimo primeiro signo do zodíaco, regido por Urano e Saturno, representado pelo portador de água. Como signo de ar, destaca-se por seu pensamento inovador, originalidade e visão humanitária. Os aquarianos são independentes, progressistas e frequentemente à frente de seu tempo em ideias e conceitos. Valorizam a liberdade intelectual e a amizade genuína. Sua natureza humanitária os leva a se preocupar com o bem coletivo e a lutar por causas sociais. Embora possam parecer emocionalmente distantes às vezes, sua mente brilhante, ideais elevados e capacidade de pensar fora da caixa fazem deles catalisadores de mudanças positivas na sociedade, constantemente desafiando o status quo em busca de um mundo melhor.</descricao>
+        <elemento>Ar</elemento>
+        <planeta>Urano e Saturno</planeta>
+        <simbolo>♒</simbolo>
+        <imagemURL>assets/images/aquarius.svg</imagemURL>
     </signo>
     <signo>
         <dataInicio>20/02</dataInicio>
         <dataFim>20/03</dataFim>
         <signoNome>Peixes</signoNome>
-        <descricao>Peixes é um signo de água, conhecido pela empatia e imaginação.</descricao>
+        <descricao>Peixes é o décimo segundo e último signo do zodíaco, regido por Netuno e Júpiter, simbolizado pelos dois peixes nadando em direções opostas. Como signo de água, é caracterizado por sua profunda empatia, imaginação vívida e conexão espiritual. Os piscianos são compassivos, intuitivos e possuem uma sensibilidade única para o sofrimento alheio. São artísticos por natureza e muitas vezes dotados de talentos criativos. Sua capacidade de transitar entre o mundo real e o imaginário lhes confere uma perspectiva única da vida. Embora possam ser evasivos e propensos a escapismos, sua compaixão genuína, sabedoria espiritual e capacidade de amar incondicionalmente fazem deles seres luminosos que trazem conforto e inspiração a todos que cruzam seu caminho.</descricao>
+        <elemento>Água</elemento>
+        <planeta>Netuno e Júpiter</planeta>
+        <simbolo>♓</simbolo>
+        <imagemURL>assets/images/pisces.svg</imagemURL>
     </signo>
 </signos>

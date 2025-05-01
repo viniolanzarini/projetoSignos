@@ -1,14 +1,67 @@
 body {
     background-color: #f4f4f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .container {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #4361ee;
+    border-color: #4361ee;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3a56d4;
+    border-color: #3a56d4;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
+}
+
+.input-group-text {
+    background-color: #4361ee;
+    color: white;
+    border-color: #4361ee;
+}
+
+.form-control:focus {
+    border-color: #4361ee;
+    box-shadow: 0 0 0 0.2rem rgba(67, 97, 238, 0.25);
+}
+
+.form-text {
+    color: #6c757d;
+    font-style: italic;
+    padding-top: 0.5rem;
+}
+
+/* Adapta o formulário para telas menores */
+@media (max-width: 768px) {
+    .card {
+        margin: 0 10px;
+    }
 }
